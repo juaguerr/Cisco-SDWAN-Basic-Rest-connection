@@ -76,7 +76,7 @@ Executing your own calls
    You can create a variable in your enviroment with that payload assigning it a variable, for example variable name "payload"
    In your Python console you can type:
     
-    sdwan.sdwan.post_request('auditlog', payload)
+    sdwan.sdwan.post_request('auditlog', payload) --> You will receive the info with all the last 10 audit logs in the last hour and now you will be able to format the info.
 
  
  
